@@ -1,0 +1,15 @@
+body{
+    background-color: #dadada;
+}
+
+header{
+    .navbar{
+        background-color: #8a17d79c;
+    }
+}
+
+.content-section{
+    padding: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
