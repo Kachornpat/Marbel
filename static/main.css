@@ -1,15 +1,28 @@
-body{
-    background-color: #dadada;
+body {
+  background-color: #dadada;
+  margin-top: 4rem;
 }
 
-header{
-    .navbar{
-        background-color: #8a17d79c;
-    }
+header {
+  .navbar {
+    background-color: #8a17d79c;
+  }
 }
 
-.content-section{
-    padding: 20px;
-    background-color: bisque;
-    margin: 10px;
+.content-section {
+  padding: 20px;
+  background-color: bisque;
+  margin: 10px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-header .navbar-brand {
+  color: white;
 }

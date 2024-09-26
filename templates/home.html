@@ -1,8 +1,10 @@
-{% extends "layout.html" %}
-{% block content %}
-    <article class="media content-section">
-        <div class="media-body">
-            <h1>Hello Marble!</h1>
-        </div>
+{% extends "layout.html" %} {% block content %}
+  <h3 class="mb-2">Project</h3>
+  {% for project in project_list %}
+    <article class="border border-2 border-dark rounded p-3 mb-2">
+      <a href="{{ url_for('project', project_id=project.id) }}">
+        <h3>{{ project.name }}</h3>
+      </a>
     </article>
+  {% endfor %}
 {% endblock content %}
