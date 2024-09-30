@@ -5,7 +5,8 @@ body {
 
 header {
   .navbar {
-    background-color: #8a17d79c;
+    background-color: #8a17d7;
+    color: white
   }
 }
 
@@ -26,3 +27,7 @@ header {
 .nav-header .navbar-brand {
   color: white;
 }
+.nav-header .navbar-toggler-icon{
+  color: white;
+}
+
