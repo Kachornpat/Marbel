@@ -20,6 +20,10 @@ header {
   background-color: black;
 }
 
+.bg-white{
+  background-color: white;
+}
+
 .nav-link {
   color: white;
 }

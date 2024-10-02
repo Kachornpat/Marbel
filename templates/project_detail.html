@@ -1,6 +1,15 @@
 {% extends "layout.html" %} {% block content %}
 <div class="h2 p-3 mb-2 border-bottom border-dark">
-    Project ID: {{ project_id }} 
+    {{ project_name }} 
 </div>
+
+<div class="h3 p-3 mb-2 border-bottom border-dark">Task</div>
+  {% for task in task_list %}
+  <article class="border border-2 border-dark rounded p-3 mb-2">
+    <a href="{{ url_for('task_detail', task_id=task.id) }}">
+      <h4>{{ task.name }}</h4>
+    </a>
+  </article>
+  {% endfor %} 
 
 {% endblock content %}
